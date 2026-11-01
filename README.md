@@ -37,7 +37,7 @@ A CUDA GPU is required for training and saliency maps. The statistics scripts ru
 | 5 | `run_ablations.py` | Leave-one-institution-out multicenter training, size-matched training, label curation, fine-tuning depth, loss weighting, training duration |
 | 6 | `build_cache448.py`, `run_ablations_bc.py` | Input resolution, CLAHE and architecture comparisons |
 | 7 | `run_site_balanced.py`, `run_seed_replicates.py` | Institution-balanced resampling (weight = min{p(y) / p(y \| institution), 10}) and repeated training runs |
-| 8 | `run_cam_flip.py`, `run_occlusion.py`, `run_cam_variants.py` | Grad-CAM pointing game, occlusion sensitivity, Grad-CAM++ and intermediate-layer maps, horizontal-flip test |
+| 8 | `run_cam_flip.py`, `run_occlusion.py`, `run_cam_variants.py` | Grad-CAM pointing game, occlusion sensitivity, intermediate-layer Grad-CAM maps, horizontal-flip test |
 | 9 | `shortcut_mechanism.py`, `shortcut_robustness.py` | Correlation of institutional label proportions with predicted probabilities on normal-labeled images; permutation, bootstrap and leave-one-institution-out checks |
 | 10 | `analyze_all.py`, `operating_point_ci.py`, `seed_replicate_auroc.py` | Patient-image-group bootstrap CIs, paired model comparison, operating points, calibration, reader comparison |
 
