@@ -1,0 +1,14 @@
+# Never commit data, outputs or weights
+cohort/
+experiments/
+results/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.csv
+*.xlsx
+*.png
+*.dcm
+*.json
+__pycache__/
